@@ -1,13 +1,14 @@
 .Bienvenidos{
     background-color: blue;
     justify-content: center;
+    border-radius: 5px;
 }
 .contenedor{
     display: grid;
-    column-gap: 100px;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
-    column-gap: 50px;
+    column-gap: 100px;
+    row-gap: 100px;
 }
 
 .operaciones{
@@ -17,15 +18,19 @@
 }
 .op1{
     background-color: blue;
+    border-radius: 5px;
 }
 .op2{
     background-color: blue;
+    border-radius: 5px;
 }
 .op3{
     background-color: blue;
+    border-radius: 5px;
 }
 .op4{
     background-color: blue;
+    border-radius: 5px;
 }
 
 .medio{
@@ -37,6 +42,10 @@
     background-color: chocolate;
     grid-column: 6;
     grid-row: 1;
+    border-radius: 5px;
+    grid-template-rows: 100px; 100px;
+    grid-template-columns: 100px; 100px; 100px;
+    grid-gap: 5px;
 }
 
 .pie{
@@ -44,13 +53,15 @@
     column-gap: 50px;
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
+    background-color: chartreuse;
+    border-radius: 5px;
 }
 .espacio{
     grid-column: 1;
     grid-row: 1;
+    background-color: white;
 }
 .pied{
-    background-color: chartreuse;
-    grid-column: 2/3;
+    grid-column: 2;
     grid-row: 1;
 }
